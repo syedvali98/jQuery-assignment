@@ -1,0 +1,78 @@
+root{
+    font-size: 12px;
+    
+}
+.sample{
+    background: url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat fixed center ;
+    background-size: cover;
+    height: 100%;
+}
+
+.chat{
+    background: ;
+    padding:2rem 1rem;
+    border-radius: 10px;
+}
+.messagebar{
+    margin-left: 50%;
+}
+
+.img{
+    width: 4rem;
+}
+.mob{
+    visibility: visible;
+}
+.nav{
+    padding: 1rem;   
+}
+.nav1{
+    padding: 1rem;
+    background-color: white;
+}
+.jumbo{
+    color: aliceblue;
+    padding: 2rem 1rem;
+}
+.text1{
+    color:beige;
+    
+}
+.text2{
+    color:darkslateblue;
+}
+.badge{
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.page{
+    padding: 1rem;
+    background-color: white;
+}
+.tog{
+    background-color:#292e2e;
+    color: white;
+    
+}
+
+
+
+@media (max-width: 576px) { 
+    .mob{
+        visibility:hidden;
+    }
+    .margin1{
+        padding: 0.5rem;
+    }
+    .nav{
+        visibility: hidden;
+    }
+    .img{
+        width: 4rem;
+    }}
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) {
+    .messagebar{margin-left: 34%
+    }
+
+}
