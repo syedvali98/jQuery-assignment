@@ -1,0 +1,31 @@
+root{
+    font-size: 12vmin;
+}
+.container{
+    margin: 5% 10%;
+    height: 100%;
+}
+.collaphead{
+    font-size: 2rem;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.collapbody{
+    padding: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#messagebody{
+    display: none;
+}
+#messagebody1{
+    display: none;
+}
+#messagebody2{
+    display: none;
+}
+
+
+

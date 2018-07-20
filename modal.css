@@ -1,0 +1,78 @@
+root{
+    display: flex;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; 
+    border-radius: 10px;
+    font-size: 3vmin;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.closebtn1{
+    padding: 1vmin 2vmin;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vmin;
+    color: white;
+    background-color: gray;
+    margin-left: 5%;
+}
+.savebtn{
+    padding: 1vmin 2vmin;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vmin;
+    color: white;
+    background-color: blue;
+    float: right;
+}
+.openbtn{
+    margin: 20% 40%;
+    padding: 3vmin;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vmin;
+    color: white;
+    background-color: gray;
+}
+.content{
+    padding: 8vmin;
+    border-bottom: solid grey;
+    border-top: solid grey;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .modal-content{
+        width: 60%;
+        margin-top: 25%;
+    }
+}
