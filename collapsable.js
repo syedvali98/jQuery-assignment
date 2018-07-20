@@ -14,4 +14,5 @@ $(document).ready(function(){
     $('#messagebody2').slideToggle();
 });
 
+    event.preventDefault();
 })
